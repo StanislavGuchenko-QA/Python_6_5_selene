@@ -4,7 +4,6 @@ import os
 def test_student_registration_form():
     # Opening the page with the practice form
     browser.open('/automation-practice-form')
-    browser.element('footer').execute_script('element.remove()')
 
     # Filling out the practice form
     browser.element('#firstName').type('Stanislav')
